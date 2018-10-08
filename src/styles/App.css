@@ -1,0 +1,40 @@
+.App {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  background-color: #412dff;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  width: 100%;
+}
+
+.App section {
+  text-align: center;
+  margin: 20px 0;
+  width: 33%;
+}
+
+hr {
+  margin: 20px 0 10px 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .App-header {
+    padding: 10px;
+  }
+
+  .App section {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .App section {
+    width: 66%;
+  }
+}

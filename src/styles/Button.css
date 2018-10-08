@@ -1,0 +1,13 @@
+button {
+  background-color: #412dff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 8px 16px;
+}
+
+.Button-disabled {
+  opacity: .5;
+}

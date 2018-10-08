@@ -1,0 +1,31 @@
+.AddModal{
+	background: rgba(0,0,0,.5);
+  height: 100%;
+  left: 0;
+  position: fixed;
+	top: 0;
+	width: 100%;
+  z-index: 2;
+}
+
+.AddModal-content {
+  background-color: white;
+  border: solid 1px black;
+  height: 150px;  
+  left: 50%;
+  margin-left: -200px;
+  margin-top: -75px;
+  padding: 10px 25px 25px 25px;
+  position: fixed;
+  top: 50%;
+  width: 400px;
+  z-index: 10;
+}
+
+.AddModal-wrapper {
+  margin-top: 15px;
+}
+
+.AddModal-close {
+  margin-left: 10px;
+}
